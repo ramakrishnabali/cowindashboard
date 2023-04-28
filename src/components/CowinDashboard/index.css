@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  background-color: #161625;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 70%;
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 35px;
+  width: 35px;
+}
+
+.website-heading {
+  color: #2cc6c6;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  margin-left: 13px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: 800;
+}
+
+.loading-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 50%;
+  margin: 10px;
+}
+
+.failure-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  line-height: 1.4;
+  text-align: center;
+}
